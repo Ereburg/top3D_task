@@ -1,0 +1,32 @@
+.static {
+  > * {
+    &:first-child {
+      margin-top: 0 !important;
+    }
+
+    &:last-child {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  p {
+    display: block;
+    margin: 19px 0 0;
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    letter-spacing: -0.7px;
+  }
+
+  a {
+    color: $color-primary;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

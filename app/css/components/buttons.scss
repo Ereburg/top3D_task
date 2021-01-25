@@ -1,19 +1,21 @@
 .btn {
   display: inline-block;
-  padding: 12px 20px;
-  border-radius: 8px;
-  line-height: 100%;
+  min-width: 280px;
+  padding: 11px 15px;
+  color: $color-white;
+  font-family: 'SF Pro Text', sans-serif;
   font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.7px;
   text-align: center;
-  letter-spacing: 0.02em;
-  font-weight: bold;
+  background: $color-primary;
+  border: 1px solid $color-primary;
+  border-radius: 4px;
   @include transition;
   white-space: nowrap;
   appearance: none;
   cursor: pointer;
-
-  background: $color-primary;
-  color: $color-white;
 
   &:hover {
     background: $color-primary-hover;
