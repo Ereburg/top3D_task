@@ -48,7 +48,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
   <link rel="canonical" href="https://ozitag.com">
-  <link rel="stylesheet" href="../css/main.css?v=3231">
+  <link rel="stylesheet" href="../css/main.css?v=629">
 
 
   <script type="application/ld+json">
@@ -94,8 +94,8 @@
 
 <main class="page__content">
 
-<div class="container">
-  <section class="home-intro">
+<section class="home-intro section">
+  <div class="container">
     <div class="home-intro__img">
         <picture>
       
@@ -107,7 +107,7 @@
             <img class="lazy" data-sizes="auto" data-original="../assets/images/home/hero.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt>
         </picture>
     </div>
-    <div class="home-intro__content">
+    <div class="home-intro__content section__content">
       <h2 class="home-intro__title">Твоя работа в&nbsp;крупнейшем&nbsp;интеграторе цифрового производства</h2>
       <div class="home-intro__text static">
         <p>Top 3D Shop – лидер по продажам 3D-оборудования в России и странах СНГ. В 2018 мы стали лучшим интегратором 3D
@@ -120,13 +120,14 @@
       </div>
       <div class="home-intro__action">
         <a href="#" class="btn">Отправить резюме</a>
-  
+
         <p class="home-intro__action-small">Нажимая кнопку, вы соглашаетесь на&nbsp;обработку&nbsp;персональных&nbsp;данных.</p>
       </div>
     </div>
-  </section>
-  
-  <section class="section home-benefits">
+  </div>
+</section>
+<section class="home-benefits section">
+  <div class="container">
     <h2 class="home-benefits__title">Лучше один раз увидеть:</h2>
     <div class="section__content">
       <ul class="home-benefits__list">
@@ -153,20 +154,43 @@
         </li>
       </ul>
     </div>
-  </section>
-</div>
+  </div>
+</section>
+<section class="home-about section section--bg">
+  <div class="container">
+    <h2 class="home-about__title">Видео о нас</h2>
+    <div class="home-about__content js-home-slider">
+      <div class="home-about__slider swiper-container js-home-slider__slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">1</div>
+          <div class="swiper-slide">2</div>
+          <div class="swiper-slide">3</div>
+          <div class="swiper-slide">4</div>
+        </div>
+      </div>
+      <div class="home-about__slider-nav">
+        <button class="home-about__slider-btn home-about__slider-btn--prev js-home-slider__prev" type="button">
+          <svg class="icon icon--slider-arrow">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../assets/images/spriteInline.svg#slider-arrow"/>
+          </svg>
+        </button>
+        <button class="home-about__slider-btn home-about__slider-btn--next js-home-slider__next" type="button">
+          <svg class="icon icon--slider-arrow">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../assets/images/spriteInline.svg#slider-arrow"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
 
 </main>
 
-<footer class="footer page__footer">
-  <div class="container">
-    <h2>FOOTER</h2>
-  </div>
-</footer>
+<!--<footer class="footer page__footer"></footer>-->
 
 </div>
 
-<script src="../js/vendors.js?v=3231" defer></script>
-  <script src="../js/main.js?v=3231" defer></script>
+<script src="../js/vendors.js?v=629" defer></script>
+  <script src="../js/main.js?v=629" defer></script>
 </body>
 </html>
