@@ -1,8 +1,14 @@
 .section {
-  margin-top: 70px;
+  padding-top: 70px;
 
   &__content {
     margin-top: 50px;
-    padding-bottom: 50px;
+    //padding-bottom: 50px;
+  }
+
+  &--bg {
+    margin-top: 70px;
+    padding: 70px 28px;
+    background-color: #F9F9F9;
   }
 }
