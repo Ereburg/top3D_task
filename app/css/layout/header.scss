@@ -1,3 +1,29 @@
 .header {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 18px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 48px rgba(0, 0, 0, 0.16);
 
+  &__top {
+    background-color: $color-yellow;
+    color: $color-black;
+  }
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 0;
+  font-weight: 600;
+
+  &__left {
+    display: flex;
+    align-items: center;
+
+    > * + * {
+      margin-left: 20px;
+    }
+  }
 }
